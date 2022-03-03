@@ -4,11 +4,11 @@ const Media__links = {
 
         // Contacts 
 
-        Twitter: 'https://twitter.com/CedrickLupembe',
-        Github: 'https://github.com/CedrickLupembe',
-        Linkedin: 'https://www.linkedin.com/in/cedrick-lupembe-a209a7208/',
-        Gmail: 'mailto:cedricklupembe91@gmail.com',
-        Blog: 'https://cedricklupembe.hashnode.dev/',
+        Twitter: 'https://twitter.com/the_code_doctor',
+        Github: 'https://github.com/as16x',
+        Linkedin: 'https://www.linkedin.com/in/',
+        Gmail: 'mailto:thecodemedic@gmail.com',
+        Blog: 'https://dev.to/thecodedoctor/',
 
         
         // APIs
