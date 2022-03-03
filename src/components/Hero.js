@@ -10,7 +10,7 @@ import { HeroBlock,
          ProjectsHero  
         } from './styles/Heroblock.styled'
 
-import me from '../Images/me.svg'
+import me from '../Images/me.jpg'
 import resume from '../Documents/resume-cedrick-lupembe.pdf'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
