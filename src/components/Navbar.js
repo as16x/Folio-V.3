@@ -16,32 +16,32 @@ import 'aos/dist/aos.css';
 const Navbar = () => {
 
     useEffect(() => {
-    
+
         AOS.init({
             duration: 200
         });
 
     }, []);
-    
+
 
     // Scroll navbar change
     const [change, setChange] = useState(false)
 
-        const ChangeNavbarFixed = () => {
-            if (window.scrollY >= 80) {
-                setChange(true)
-            }
-            else{
-                setChange(false);
-              }
+    const ChangeNavbarFixed = () => {
+        if (window.scrollY >= 80) {
+            setChange(true)
         }
+        else {
+            setChange(false);
+        }
+    }
 
-        window.addEventListener('scroll', ChangeNavbarFixed)
+    window.addEventListener('scroll', ChangeNavbarFixed)
 
     return (
 
         <Navigation id='Navigation' className={change ? 'navbar colorChange' : 'none'}>
-            
+
             <h1><a href="#Hero">The Code Doctor</a></h1>
 
             <ul>
@@ -56,47 +56,47 @@ const Navbar = () => {
                     data-aos-easing="linear"
                     data-aos-duration="1200">
 
-                    <a href="#About">About</a>
+                    <a href="#About">Über mich</a>
                 </li>
 
                 <li data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1400">
-                    <a href="#Works">Work</a>
+                    <a href="#Works">Arbeit</a>
                 </li>
 
                 <li data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1600">
-                    <a href="#Contact">Contact</a>
+                    <a href="#Contact">Kontakt</a>
                 </li>
 
             </ul>
 
             <Media>
-                
-            <IconContext.Provider value={{ className: 'react-icons', size: 15 }}>
-                
-                <span data-aos="fade-left"
-                      data-aos-easing="linear"
-                      data-aos-duration="1000">
 
-                    <a href={Media__links.Twitter} target='_blank' rel='noreferrer'><GrTwitter /> Twitter</a>
-                </span>
+                <IconContext.Provider value={{ className: 'react-icons', size: 15 }}>
+
+                    <span data-aos="fade-left"
+                        data-aos-easing="linear"
+                        data-aos-duration="1000">
+
+                        <a href={Media__links.Twitter} target='_blank' rel='noreferrer'><GrTwitter /> Twitter</a>
+                    </span>
 
 
-                <span data-aos="fade-left"
-                      data-aos-easing="linear"
-                      data-aos-duration="1400">
+                    <span data-aos="fade-left"
+                        data-aos-easing="linear"
+                        data-aos-duration="1400">
 
-                    <a href={Media__links.Github} target='_blank' rel='noreferrer'><AiFillGithub /> Github</a>
-                </span>
+                        <a href={Media__links.Github} target='_blank' rel='noreferrer'><AiFillGithub /> Github</a>
+                    </span>
 
-            </IconContext.Provider>
+                </IconContext.Provider>
 
                 <span className='Btn-mail' data-aos="fade-left"
-                                            data-aos-easing="linear"
-                                            data-aos-duration="1600">
+                    data-aos-easing="linear"
+                    data-aos-duration="1600">
                     <a className='mail' href={Media__links.Gmail}><GoMail /></a>
                 </span>
 
