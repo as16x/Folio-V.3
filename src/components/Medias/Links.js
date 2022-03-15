@@ -20,15 +20,15 @@ const Media__links = {
         // Projects
 
         Devfind: 'https://devfind.vercel.app/',
-        DevfindGithub: 'https://github.com/CedrickLupembe/github-user-search',
+        DevfindGithub: 'https://github.com',
 
         TaskManager: 'https://track-me.vercel.app/',
-        TaskManagerGithub: 'https://github.com/CedrickLupembe/Todo-manager',
+        TaskManagerGithub: 'https://github.com/',
 
         FolioV1: 'https://cedricklupembe.github.io/',
-        FolioV1Github: 'https://github.com/CedrickLupembe/cedricklupembe.github.io',
+        FolioV1Github: 'https://github.com/',
 
-        aylf: 'https://cedricklupembe.github.io/AYLF/'
+        aylf: 'https://github.com/'
 
 }
 
