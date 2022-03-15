@@ -16,7 +16,7 @@ import 'aos/dist/aos.css';
 const Intro = () => {
 
     useEffect(() => {
-    
+
         AOS.init({
             duration: 300
         });
@@ -26,7 +26,7 @@ const Intro = () => {
 
     return (
         <Introduction id='About'>
-            
+
             <ServiceBlock>
 
                 {/* Front end block */}
@@ -49,32 +49,32 @@ const Intro = () => {
                 {/* Design block */}
                 <Design data-aos="fade-up" data-aos-duration="650">
                     <Title>
-                            <span>Design</span>
+                        <span>Design</span>
 
-                            <IconContext.Provider value={{ className: 'react-icons', size: '1.5rem', color: '#6EF3A5' }}>
-                                <FaFigma />
-                            </IconContext.Provider>
-                        </Title>
+                        <IconContext.Provider value={{ className: 'react-icons', size: '1.5rem', color: '#6EF3A5' }}>
+                            <FaFigma />
+                        </IconContext.Provider>
+                    </Title>
 
-                        <p>Create digital products with unique ideas</p>
+                    <p>Create digital products with unique ideas</p>
 
-                        <a href="#Works">PROJECTS</a>
+                    <a href="#Works">PROJECTS</a>
                 </Design>
 
 
                 {/* Blog block */}
                 <Blogger data-aos="fade-up" data-aos-duration="750">
-                        <Title>
-                            <span>Blogger</span>
+                    <Title>
+                        <span>Blogger</span>
 
-                            <IconContext.Provider value={{ className: 'react-icons', size: '1.5rem', color: '#6EF3A5' }}>
-                                <SiWritedotas />
-                            </IconContext.Provider>
-                        </Title>
+                        <IconContext.Provider value={{ className: 'react-icons', size: '1.5rem', color: '#6EF3A5' }}>
+                            <SiWritedotas />
+                        </IconContext.Provider>
+                    </Title>
 
-                        <p>Explain everything I know about specific topics</p>
+                    <p>Explain everything I know about specific topics</p>
 
-                        <a href={Media__links.Blog}>BLOG</a>
+                    <a href={Media__links.Blog}>BLOG</a>
                 </Blogger>
 
 
@@ -87,42 +87,42 @@ const Intro = () => {
                     <img src={emoji} alt="" />
                 </span>
 
-                <h1 data-aos="fade-up" data-aos-anchor-placement="center-bottom">Hi, I’m Cedrick</h1>
+                <h1 data-aos="fade-up" data-aos-anchor-placement="center-bottom">Hi, ich bin <br /><strong>The Code Doctor</strong></h1>
 
                 <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                     A Front-End Software Engineer.
                     <br />
-                    I help companies and organizations build modern, 
-                    resilient, and inclusive Web user interfaces with a strong 
+                    I help companies and organizations build modern,
+                    resilient, and inclusive Web user interfaces with a strong
                     focus on responsive design, performance, and accessibility.
                 </p>
 
                 <p data-aos="fade-up">
-                    Well-organised person, problem solver, independent employee 
+                    Well-organised person, problem solver, independent employee
                     with high attention to detail.
-                    
+
                 </p>
 
                 <p data-aos="fade-up">
                     I talk about my journey on <a href={Media__links.Twitter} target='_blank' rel='noreferrer'>
-                        Twitter</a>, 
+                        Twitter</a>,
                     commit code to <a href={Media__links.Github} target='_blank' rel='noreferrer'>
-                        Github</a>, 
+                        Github</a>,
                     and network on <a href={Media__links.Linkedin} target='_blank' rel='noreferrer'>
                         Linkedin..</a>
                 </p>
 
-                <p data-aos="fade-up">Technologies I’m working with:</p>
+                <p data-aos="fade-up">Technologien, mit denen ich arbeite:</p>
 
                 <TechoSection>
-                    
+
                     <ul data-aos="fade-up">
                         <li>HTML</li>
                         <li>CSS/Sass</li>
                         <li>JavaScript(ES6+)</li>
                         <li>Git/Github</li>
                     </ul>
-                        
+
                     <ul className='Active' data-aos="fade-up">
                         <li>React(Next)</li>
                         <li>Node.js</li>
