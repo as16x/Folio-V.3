@@ -208,7 +208,7 @@ export const Div1 = styled.div`
     height: auto;
     background-color: var(--secondary-bg);
     padding: 50px;
-    text-align: right;
+    text-align: center;
     border-radius: 5px;
     z-index: 9;
 

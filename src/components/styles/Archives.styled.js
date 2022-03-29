@@ -181,3 +181,30 @@ export const Div3 = styled.div`
 
 `
 
+export const ImgBlock = styled.div`
+
+    width: 80%;
+    height: 100px;
+    margin: 15px auto;
+    position: relative;
+    z-index: 1;
+
+    ::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        // background-color: rgba(110, 243, 165,0.7);
+        width: 100%;
+        height: 100%;
+
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+        z-index: 2;
+        object-fit: cover;
+    }
+`

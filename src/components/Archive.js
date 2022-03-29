@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react'
 
 import { IconContext } from "react-icons";
-import { Container, Titles, Div1, Div2, Div3 } from './styles/Archives.styled'
+import { ImgBlock, Container, Titles, Div1, Div2, Div3 } from './styles/Archives.styled'
 import { FiFolder } from 'react-icons/fi'
 import { RiGithubLine } from 'react-icons/ri'
 import { GoLinkExternal } from 'react-icons/go'
 import Media__links from './Medias/Links'; 
+import feature from '../Images/stocks/bico_logo.jpg'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -57,7 +58,7 @@ const Archive = () => {
                                 </IconContext.Provider>
                             </a>
 
-                            <a href={Media__links.Devfind} target='_blank' rel='noreferrer'>
+                            <a href={Media__links.Bico} target='_blank' rel='noreferrer'>
                                 <IconContext.Provider value={{size: "1.2rem", className: "react-icons-link" }}>
                                     <GoLinkExternal />
                                 </IconContext.Provider>
@@ -66,12 +67,17 @@ const Archive = () => {
                         </span>
                     </Div3>
 
-                        <h1><a href={ Media__links.Devfind } target='_blank' rel='noreferrer'>Devfind</a></h1>
-                        <p>
+                        <h1><a href={ Media__links.Bico } target='_blank' rel='noreferrer'>BICO-GROUP</a></h1>
+                        {/* <p>
                             A single page application for searching github users and repositories. 
                             The app uses the <a href={Media__links.GithubAPI} target='_blank' rel='noreferrer'>Github API</a> to perform searches on Github 
                             
-                        </p>
+                        </p> */}
+                        <ImgBlock>
+
+                        <img src={feature} alt="" />
+
+                        </ImgBlock>
 
                         <ul>
                             <li>JavaScript</li>

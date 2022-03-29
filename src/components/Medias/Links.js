@@ -1,5 +1,3 @@
-
-
 const Media__links = {
 
         // Contacts 
@@ -10,7 +8,7 @@ const Media__links = {
         Gmail: 'mailto:thecodemedic@gmail.com',
         Blog: 'https://dev.to/thecodedoctor/',
 
-        
+
         // APIs
 
         GithubAPI: 'https://docs.github.com/en/rest/reference/users',
@@ -20,15 +18,18 @@ const Media__links = {
         // Projects
 
         Devfind: 'https://devfind.vercel.app/',
-        DevfindGithub: 'https://github.com',
+        DevfindGithub: 'https://github.com/',
 
         TaskManager: 'https://track-me.vercel.app/',
-        TaskManagerGithub: 'https://github.com/',
+        TaskManagerGithub: 'https://github.com/CedrickLupembe/Todo-manager',
 
         FolioV1: 'https://cedricklupembe.github.io/',
-        FolioV1Github: 'https://github.com/',
+        FolioV1Github: 'https://github.com/CedrickLupembe/cedricklupembe.github.io',
 
-        aylf: 'https://github.com/'
+        aylf: 'https://cedricklupembe.github.io/AYLF/',
+
+        // Stocks
+        Bico: 'https://bico.com/'
 
 }
 

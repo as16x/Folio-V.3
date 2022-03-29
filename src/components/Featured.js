@@ -11,40 +11,39 @@ import 'aos/dist/aos.css';
 
 const Feature = () => {
 
-        useEffect(() => {
+    useEffect(() => {
 
-            AOS.init({
-                duration: 300
-            });
-            
-        }, []);
-        
+        AOS.init({
+            duration: 300
+        });
+
+    }, []);
+
 
 
     return (
 
         <FeaturedBlock id='Works'>
-            
+
             <Titles data-aos="fade-up">
-                <span>Latest Works</span>
-                <p>Noteworthy Projects I’ve worked on</p>
+                <span>Meine Arbeit</span>
+                <p>Projekte, an denen ich gearbeitet habe</p>
             </Titles>
 
             <Mockup data-aos="fade-up">
                 <ImgBlock>
-                
+
                     <img src={feature} alt="" />
-                
+
                 </ImgBlock>
 
                 <Description>
                     <span className='Title-feature'>Features projects</span>
-                    <h1>AYLF</h1>
+                    <h1>TCD</h1>
 
                     <Div1>
                         <p>
-                            <span>Africa Youth Leadership Forum</span> minimalist landing page built 
-                            with extensive <span>user interface research</span> available on the web
+                        I help people succeed with <span>Python for Machine Learning / Data Science / Finance | Content Creator</span> 🤟 
                         </p>
                     </Div1>
 
